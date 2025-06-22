@@ -234,6 +234,12 @@ p {
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.advantages-box-icon:hover,
+.advantages-box-icon:focus {
+  transform: scale(1.1);
 }
 
 .content-team {
